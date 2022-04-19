@@ -73,7 +73,7 @@ function App(props) {
         <p className="text-red">Name: {details.name}</p>
       </div>
       <div className=" h-[61vh] overflow-y-auto">
-        <div className="grid grid-cols-6 gap-8 bg-center     ">
+        <div className="md:grid grid-cols-6 gap-8 bg-center     ">
           {pokemon.length > 0 ? (
             pokemon.map((item, i) => (
               <Pokemons
