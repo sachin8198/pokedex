@@ -10,7 +10,7 @@ function Pokemons({
 }) {
   return (
     <>
-      <div className="max-w-xs mx-auto md:mx-0 my-6  rounded overflow-hidden shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+      <div className="max-w-xs mx-auto md:mx-0 my-6  rounded overflow-hidden shadow-lg transition ease-in-out delay-150 bg-black text-white hover:-translate-y-1 hover:scale-110  duration-300">
         <img className="w-full" src={imgUrl} alt={name} />
         <div className="flex justify-between items-center mx-2 ">
           <button

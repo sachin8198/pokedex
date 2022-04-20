@@ -62,7 +62,7 @@ function App(props) {
         backgroundImage: 'url("/images/bgimg.jpg")',
       }}
     >
-      <div className="max-w-sm min-h-fit my-7 mx-auto  rounded  overflow-hidden shadow-lg  bg-blue-500  hover:bg-indigo-500 duration-300">
+      <div className="max-w-sm min-h-fit my-7 mx-auto  rounded  overflow-hidden shadow-lg bg-black text-white  duration-300">
         <img
           className=" w-48 h-auto mx-auto"
           src={details.imgUrl}
